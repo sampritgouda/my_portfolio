@@ -179,7 +179,7 @@ function pausepopupvideo(video)
 }
 
  function viewResume() {
-      const resumeUrl = "assets/images/resume.pdf"; // Replace with your actual file path
+      const resumeUrl = "assets/images/SampritGoudaResume.pdf"; // Replace with your actual file path
       document.getElementById("resumeFrame").src = resumeUrl;
       document.getElementById("resumeContainer").style.display = "block";
     }
