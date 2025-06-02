@@ -721,13 +721,70 @@ body{
   background-color: #ff3c2d;
 }
 
+
 @media screen and (max-width: 768px) {
+  #section5
+  {
+    
+    height: auto;
+  }
+  #section4
+  {
+    
+    height: auto;
+  }
+  #section3
+  {
+    height: auto;
+  }
   .contact-container {
     flex-direction: column;
+   
   }
 
   .contact-info, .contact-form {
-    padding: 30px 20px;
+    padding: 30px 20px 30px 20px;
+  }
+
+  .section
+  {
+    flex-direction:column-reverse;
+  }
+  .nav-contents
+  {
+    display: none;
+  }
+
+  .image
+  {
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+    margin-top: -90px;
+  }
+  .explain
+  {
+    margin-top: -200px;
+    margin-left: 100px;
+  }
+
+  .explain h1 span
+  {
+    font-size: 30px;
+  }
+  .resume-btn
+  {
+    margin-left: -140px;
+    margin-top: -50px;
+  }
+
+  .image-container
+  {
+    width: 80%;
+  }
+  .section.vissible
+  {
+    display: flex;
   }
 }
 
