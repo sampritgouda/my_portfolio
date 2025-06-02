@@ -722,20 +722,51 @@ body{
 }
 
 
+
 @media screen and (max-width: 768px) {
   #section5
   {
-    
+    margin-top: 30px;
     height: auto;
   }
   #section4
   {
-    
+    margin-top: 0;
     height: auto;
   }
-  #section3
+ #section2
+ {
+  height: 400px;
+  flex-direction: column;
+ }
+ #section3
+ {
+  margin-top: 200px;
+  height: 600px;
+ }
+
+ .col{
+  height: 250px;
+ }
+
+ .special
+ {
+  font-size: 10px;
+ }
+ .techn
+ {
+  width: 100px;
+  height: 100px;
+ }
+
+  .techn i
   {
-    height: auto;
+    font-size: 20px;
+  }
+  .teck-skills
+  {
+    width: 120%;
+    margin-left: 100px;
   }
   .contact-container {
     flex-direction: column;
@@ -746,6 +777,22 @@ body{
     padding: 30px 20px 30px 20px;
   }
 
+  .col2r1
+  {
+    margin-top: 0;
+  }
+  .col1{
+    display: none;
+  }
+  .col2
+  {
+    width: 100%;
+  }
+
+  .col2 p{
+    width: 90%;
+    padding: 10px;
+  }
   .section
   {
     flex-direction:column-reverse;
@@ -755,6 +802,17 @@ body{
     display: none;
   }
 
+  .project-popup{
+    flex-direction: column;
+  }
+  .popup-info{
+    width: 220px;
+  }
+
+  .p-container
+  {
+    padding-bottom: 100px;
+  }
   .image
   {
     margin-left: 100px;
@@ -787,6 +845,7 @@ body{
     display: flex;
   }
 }
+
 
 #loadingIndicator
 {
