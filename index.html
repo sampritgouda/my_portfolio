@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sampirt_portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" >
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+
+</head>
+<body>
+    <div class="navbar">
+        <p class="icon"><img src="assets/images/port1.jpg"></p>
+        <ul class="nav-contents">
+            <li class="content" id="section1-link" onclick="scrolltosection('section1')">
+                <i class='bx bxs-home'></i>
+                <div> home</div>
+            </li>
+            <li class="content" id="section2-link" onclick="scrolltosection('section2')">
+                <i class='bx bxs-user' ></i>
+                <div>about</div>
+            </li>
+            <li class="content" id="section3-link" onclick="scrolltosection('section3')">
+                <i class='bx bxs-layer-plus'></i>
+                <div>skills</div>
+            </li>
+            <li class="content" id="section4-link" onclick="scrolltosection('section4')">
+                <i class="fas fa-folder-open"></i>
+                <div> Projects</div>
+            </li>
+            <li class="content" id="section5-link" onclick="scrolltosection('section5')">
+                <i class='bx bxs-contact' ></i>
+                <div>contact</div>
+            </li>
+        </ul>
+    </div>
+    <section class="section" id="section1">
+      
+        
+            <div class="explain">
+                <h1>Hi,<br><div class="type">I'am       <span class="name">Samprit</span></div><span class="text">Web developer</span></h1>
+                <div class="resume-btn" onclick="viewResume()">View Resume</div>
+            </div>
+            <div class="poto">
+    
+                <img class="image" src="assets/images/sampritg.jpg"></img>
+            </div>
+            <div id="resumeContainer">
+                <button onclick="closeresume()" class="close-resume">colse Resume</button>
+    <iframe id="resumeFrame" src=""></iframe>
+    <br>
+
+  </div>
+       
+    </section>
+    <section class="section" id="section2" >
+        <div class="col1">
+            <div class="image-box">
+                <img class="image2" src="assets/images/sampritg1.jpeg"></img>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="col2r1">
+                <h1>About me</h1>
+            </div>
+            <div class="col2r2">
+                <p>I’m Samprit Gouda, a passionate and dedicated Java Full Stack Developer with hands-on experience in building dynamic 
+                    and user-friendly web applications. My core skills span both front-end (HTML, CSS, JavaScript) and back-end development
+                     using Core Java, Advanced Java, Spring Framework, and MySQL. I have developed several full-stack projects, including an E-commerce
+                      Website, Instagram Clone, and a Food Delivery App, all demonstrating my ability to turn ideas into fully functional web solutions. 
+                      I thrive in collaborative environments, enjoy solving real-world problems through code, and am constantly learning new technologies
+                       to improve performance and user experience. With a strong academic background and a deep interest in scalable web development, I aim to contribute meaningfully to innovative tech teams.</p>
+            </div>
+            <div class="col2r3">
+                <div class="skills se">skills</div>
+                <div class="education se">education</div>
+            </div>
+            <div class="col2r4">
+                <div class="skills-col col">
+                    <div class="skill1">
+                        <div class="main">TECHNICAL SKILLS:</div>
+                        <UL>
+                            <li>HTML</li>
+                            <LI>CSS</LI>
+                            <LI>JAVA</LI>
+                            <LI>JAVASCRIPT</LI>
+                            <LI>SQL</LI>
+                            <li>HIBERNATE</li>
+                            <LI>SPRING</LI>
+                            
+                        </UL>
+                        
+                    </div>
+                    <div class="skill2">
+                        <div class="main">NON TECHNICAL SKILLS</div>
+                        <UL>
+                            <LI>GOOD COMMUNICATION</LI>
+                            <LI>PROBLEM SLOVING</LI>
+                            <LI>LEADERSHIP</LI>
+                        </UL>
+                    </div>
+                    <div class="skill3">
+                        <div class="main">DEVELOPER TOOLS</div>
+                        <UL>
+                            <LI>VISUAL STUDIO CODE</LI>
+                            <LI>ECLIPSE</LI>
+                            <LI>GIT</LI>
+
+                        </UL>
+                    </div>
+                </div>
+                <div class="education-col col">
+                    <div class="education1">
+                        <div class="main">SSLC:</div>
+                        
+                        <ul>
+                            <li>SCHOOL : JANATA VIDYALAYA KASARKOD</li>
+                            <li>BOARD : KSEEB</li>
+                            <li>YEAR : 2019</li>
+                            <li>PERCENTAGE : 90.04%</li>
+                        </ul>
+                    </div>
+                    <div class="education1">
+                        <div class="main">PU:</div>
+                        <ul>
+                            <li>COLLEGE : GOVT MOHAN K SHETTY PU COLLEGE, HONNAVAR</li>
+                            <li>BOARD : KSEEB</li>
+                            <li>YEAR : 2021</li>
+                            <li>PERCENTAGE : 85.67%</li>
+                        </ul>
+                    </div>
+                    <div class="education2 ">
+                        <div class="main">BCA:</div>
+                        <ul>
+                            <li>COLLEGE : GOVT FIRST GRADE COLLEGE, HONNAVAR</li>
+                            <li>BOARD : KUD</li>
+                            <li>YEAR : 2024</li>
+                            <li>PERCENTAGE : 80.67%</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section3" class="section">
+       
+        <div class="tech">
+            
+                <h3>TECHNICAL SKILLS</h3>
+                <div class="teck-skills">
+                <div class="tech1 techn">
+                    <div class="techlogo">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div>
+                        <h4>HTML</h4>
+                        
+                    </div>
+                </div>
+                <div class="tech2 techn">
+                    <div class="techlogo">
+                        <i class="fab fa-css3-alt" ></i>
+                    </div>
+                    <div >
+                       <h4>CSS</h4>
+                    </div>
+                </div>
+                <div class="tech3 techn">
+                    
+                        <img src="assets/images/java-script.png" alt="" style="width: 30%;height: 30%;">
+                    
+                    
+                        <h4>JAVASCRIPT</h4>
+                    
+                </div>
+                
+                <div class="tech4 techn">
+                    <div class="techlogo">
+                      
+                        <i class='bx bxl-java'></i>
+                    </div>
+                    <div >
+                        <h4>JAVA</h4>
+                    </div>
+                </div>
+                <div class="tech5 techn">
+                    <img src="assets/images/hiberpoto.png" alt="" style="width: 100%;height: 60%;">
+                    
+                </div>
+                <div class="tech5 techn">
+                    <img src="assets/images/MYSQL.png" alt="" style="width: 70%;height: 60%;">
+                </div>
+                <div class="tech5 techn">
+                    <div class="techlogo">
+                        <i class="fas fa-leaf"></i> 
+                    </div>
+                    <div>
+                      <h4>SPRING</h4> 
+                    </div>
+                </div>
+                <div class="tech5 techn">
+                    <div class="techlogo">
+                       <i class="fas fa-tools"></i>
+                    </div>
+                    <div>
+                      <h4>ECLIPSE ,VS CODE</h4>
+                      <h4>STS ,GIT</h4> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="section4" class="section">
+        <h2>My Projects</h2>
+        <div class="p-container">
+
+        <div class="image-container">
+            <img src="assets/images/attms.png" alt=""  class="p-image">
+            <div class="project-info">
+                <h3 class="project-name">ATTENDANCE MANAGEMENT</h3>
+                <a onclick="openpopup('project1')" class="project-link">Click here to view Project</a>
+              </div>
+        </div>
+        <div class="image-container"><img src="assets/images/Screenshot (2).png" alt=""class="p-image">
+            <div class="project-info">
+                <h3 class="project-name">ECOMERCE WEBSITE</h3>
+                <a onclick="openpopup('project2')" class="project-link">Click here to view Project</a>
+              </div>
+        </div>
+        <div class="image-container">
+            <img src="assets/images/tik-tak.png" alt=""class="p-image">
+            <div class="project-info">
+                
+                <h3 class="project-name"> TIK TAK TOE</h3>
+                <a onclick="openpopup('project3')" class="project-link">Click here to view Project</a>
+              </div>
+        </div>
+        <div class="image-container">
+            <img src="assets/images/instagram.png" alt=""class="p-image">
+            <div class="project-info">
+                <h3 class="project-name">INSTAGRAM CLONE</h3>
+                <a onclick="openpopup('project4')" class="project-link">Click here to view Project</a>
+              </div>
+        </div>
+        
+        <div class="image-container">
+            <img src="assets/images/foodapp.png" alt=""class="p-image">
+            <div class="project-info">
+                <h3 class="project-name">FOOD APP</h3>
+                <a onclick="openpopup('project6')" class="project-link">Click here to view Project</a>
+              </div>
+        </div>
+    </div>
+    <div class="project-popup" id="project2">
+        <div class="popup-image">
+            <h3 class="popup-heading">ECOMERCE WEBSITE</h3>
+             <video src="assets/video/ecomercevdo.mp4" class="popup-video" id="video2" onmouseout="pausepopupvideo('video2')" autoplay loop muted playsinline></video>
+            <img src="assets/images/Screenshot (2).png" alt="" onmouseover="playpopupvideo('video2')">
+            <a href="https://github.com/sampritgouda/ecomerce-website-project" class="popup-button" >click here to view project</a>
+        </div>
+        <div class="popup-info">
+            <h3>Description :</h3>
+            <p>The E-commerce Website lets users browse products, add them to a cart, and place orders online. Built with HTML, CSS, JavaScript (frontend) and
+Java (JSP, Servlets) with MySQL (backend), it offers a responsive shopping experience. Admins can manage products via a simple admin panel. The
+app runs on an Apache Tomcat server.</p>
+                <h3>key features :</h3>
+                <ul>
+                    <li>Browse Products: Users can view product listings with images, prices, and descriptions.</li>
+                    <li>Product Filtering: Filter products by category for easier navigation.</li>
+                    <li>Product Search: Search bar to find products quickly.</li>
+                    <li>Add to Cart: Add selected products to a shopping cart.</li>
+                    <li>Cart Management: View, update, or remove items from the cart.</li>
+                    <li>Place Orders: Securely place orders with total amount calculation.</li>
+                    <li>User Registration/Login: Secure signup and login system.</li>
+                </ul>
+                <h3>technologies used :</h3>
+                <div class="technologies">
+                    <div>
+                        <i class="fab fa-html5"></i>
+                        <div>HTML</div>
+                    </div>
+                    <div>
+                         <i class="fab fa-css3-alt" ></i>
+                         <div>CSS</div>
+                    </div>
+                    <div>
+                       <i class="fab fa-js-square" ></i>
+                        <div>JAVASCRIPT</div>
+                    </div>
+                    <div>
+                        <i class='bx bxl-java'></i>
+                        <div>JAVA</div>
+                    </div>
+                    <div>
+                         <i class="bi bi-filetype-sql"></i>
+                         <div>MySQL</div>
+                    </div>
+                </div>
+        </div>
+        <div class="popup-close" id="close-btn"><i class="fa fa-times" aria-hidden="true" onclick="closepopup('project2')"></i></div>
+    </div>
+
+
+
+
+
+    <div class="project-popup" id="project1">
+        <div class="popup-image">
+            <h3 class="popup-heading">ATTENDANCE MANAGEMENT SYSTEM</h3>
+            <img src="assets/images/attms.png" alt="" onmouseover="playpopupvideo('video1')">
+              <video src="assets/video/attendancevdo.mp4" class="popup-video" id="video1" onmouseout="pausepopupvideo('video1')" autoplay loop muted playsinline></video>
+            <a href="https://github.com/sampritgouda/attendance-management-system-project" class="popup-button">click here to view project</a>
+        </div>
+        <div class="popup-info">
+            <h3>Description :</h3>
+            <p>Attendance Management System helps track and manage student or employee attendance efficiently. Built with HTML5, CSS3, 
+                JavaScript (frontend), PHP (backend), and MySQL (database), it offers a responsive interface for adding users, marking attendance, viewing reports, 
+                and generating summaries — all through an intuitive web platform.
+            </p>
+                <h3>key features :</h3>
+                <ul>
+                    <li>Admin Login: Secure login system for administrators.</li>
+                    <li>Add/Edit/Delete Users: Admins can manage student or employee records.</li>
+                    <li>Role-Based Access (optional): Separate interfaces for admins, teachers, or students.</li>
+                    <li>Mark Attendance: Admins can mark daily attendance for users.</li>
+                    <li>Date-Based Tracking: Attendance records are stored and retrieved by date.</li>
+                    <li>View Attendance Logs: Track daily, weekly, or monthly attendance for each user.</li>
+                    <li>Export Options (Optional): Download reports as PDF or Excel files.</li>
+                </ul>
+                <h3>technologies used :</h3>
+                <div class="technologies">
+                    <div>
+                        <i class="fab fa-html5"></i>
+                        <div>HTML</div>
+                    </div>
+                    <div>
+                         <i class="fab fa-css3-alt" ></i>
+                         <div>CSS</div>
+                    </div>
+                    <div>
+                        <i class="fab fa-js" ></i>
+                        <div>JAVASCRIPT</div>
+                    </div>
+                    <div>
+                        <i class="fab fa-php"></i>
+                        <div>PHP</div>
+                    </div>
+                    <div>
+                         <i class="bi bi-filetype-sql"></i>
+                         <div>MySQL</div>
+                    </div>
+                </div>
+        </div>
+        <div class="popup-close" id="close-btn"><i class="fa fa-times" aria-hidden="true" onclick="closepopup('project1')"></i></div>
+    </div>
+
+
+
+
+    <div class="project-popup" id="project3">
+        <div class="popup-image">
+            <h3 class="popup-heading">TIK TAK TOE</h3>
+            <img src="assets/images/tik-tak.png" alt="" >
+            <a href="https://github.com/sampritgouda/my-java-project" class="popup-button">click here to view project</a>
+        </div>
+        <div class="popup-info">
+            <h3>Description :</h3>
+            <p>This is a console-based Tic-Tac-Toe game developed in Java using Object-Oriented Programming (OOP) principles.The game supports two modes:</p>
+            <ul>
+                <li>player vs player</li>
+                <li>player vs computer(machine)</li>
+            </ul>
+                <h3>key features :</h3>
+                <ul>
+                    <li>OOP-Based Structure:Separate classes for Game, Player, Board, and ComputerPlayer.Use of encapsulation, inheritance, and polymorphism.</li>
+                    <li>Multiple Game Modes:Option to play with another human player or against the computer.</li>
+                    <li>Simple Console UI:Board is displayed in the console.Input is taken using Scanner for positions.</li>
+                    <li>Input Validation:Prevents overwriting already filled cells.Ensures input is within valid range.</li>
+                    <li>Game Status Checker:Automatically checks for win, draw, or ongoing game after every move.</li>
+                    <li>Basic AI for Machine:The machine selects moves strategically or randomly (can be upgraded to use Minimax).</li>
+                    <li>Replay Option:Allows players to play again without restarting the application.</li>
+                </ul>
+                <h3>technologies used :</h3>
+                <div class="technologies">
+                    <div>
+                        <i class='bx bxl-java'></i>
+                        <div>JAVA</div>
+                    </div>
+                </div>
+        </div>
+        <div class="popup-close" id="close-btn"><i class="fa fa-times" aria-hidden="true" onclick="closepopup('project3')"></i></div>
+    </div>
+
+
+
+    <div class="project-popup" id="project4">
+        <div class="popup-image">
+            <h3 class="popup-heading">INSTAGRAM CLONE</h3>
+            <img src="assets/images/instagram.png" alt="" onmouseover="playpopupvideo('video4')">
+            <video src="assets/video/instavdo1.mp4" class="popup-video" id="video4" onmouseout="pausepopupvideo('video4')" autoplay loop muted playsinline></video>
+            <a href="https://github.com/sampritgouda/Instagram_clone" class="popup-button">click here to view project</a>
+        </div>
+        <div class="popup-info">
+            <h3>Description :</h3>
+            <p>The Instagram Clone is a simplified social media web application built using Java technologies such as JSP 
+                (JavaServer Pages), Servlets, MySQL, and styled with CSS and JavaScript for interactivity. It replicates the core functionalities of Instagram, 
+                allowing users to register, log in, share posts (photos/videos), interact with others through likes and follows, and explore user profiles in a dynamic, responsive interface.</p>
+                <h3>key features :</h3>
+                <ul>
+                    <li>User Authentication:Sign up, log in, and log out functionality.Secure session handling.</li>
+                    <li>Post Uploading:Upload and display photos or videos.Captions supported.Posts stored with timestamps and linked to users.</li>
+                    <li>Post Feed:Dynamic home feed showing all posts from users.Includes profile image, username, caption, media, and like button.</li>
+                    <li>Like System:Users can like posts and reels.Like count displayed dynamically.</li>
+                    <li>Follow/Unfollow System:Users can follow or unfollow others.Follower and following counts updated in real-time.</li>
+                    <li>User Profiles:Each user has a profile page showing their posts and bio.View other users’ profiles by clicking on usernames.</li>
+                    <li>Reels Feature:Short video format similar to Instagram Reels.Displayed in a scrollable view.</li>
+                    <li>Media Storage with Cloudinary:Uploaded images and videos are stored using Cloudinary integration.</li>
+                    <li>Bookmark/Saved Posts:Users can save posts and reels to view later.</li>
+                    <li>Clean MVC Architecture:Separates concerns into Models (Java classes), Views (JSP), and Controllers (Servlets).</li>
+                </ul>
+                <h3>technologies used :</h3>
+                <div class="technologies">
+                    <div>
+                        <i class="fab fa-html5"></i>
+                        <div>HTML</div>
+                    </div>
+                    <div>
+                         <i class="fab fa-css3-alt" ></i>
+                         <div>CSS</div>
+                    </div>
+                    <div>
+                        <i class="fab fa-js" ></i>
+                        <div>JAVASCRIPT</div>
+                    </div>
+                    <div>
+                        <i class='bx bxl-java'></i>
+                        <div>JAVA</div>
+                    </div>
+                    <div>
+                         <i class="bi bi-filetype-sql"></i>
+                         <div>MySQL</div>
+                    </div>
+                </div>
+        </div>
+        <div class="popup-close" id="close-btn"><i class="fa fa-times" aria-hidden="true" onclick="closepopup('project4')"></i></div>
+    </div>
+
+
+
+    
+    
+
+    <div class="project-popup" id="project6">
+        <div class="popup-image">
+            <h3 class="popup-heading">FOOD APP</h3>
+            <img src="assets/images/foodapp.png" alt="" onmouseover="playpopupvideo('video5')">
+            <video src="assets/video/foodappvdo.mp4" class="popup-video" id="video5" onmouseout="pausepopupvideo('video5')" autoplay loop muted playsinline></video>
+            <a href="https://github.com/sampritgouda/Food_App" class="popup-button">click here to view project</a>
+        </div>
+        <div class="popup-info">
+            <h3>Description :</h3>
+            <p>The Food Delivery App is a dynamic, web-based application developed using JSP, Servlets, JavaScript, and CSS, simulating core features of
+                 popular food delivery platforms like Swiggy or Zomato. It enables users to browse nearby restaurants, explore their menus, add
+                  food items to a cart, and place online orders. The app provides a smooth user experience with real-time interactivity and backend integration using Java and MySQL.</p>
+                <h3>key features :</h3>
+                <ul>
+                    <li>User Authentication:Secure login and registration system.Session management for logged-in users.</li>
+                    <li>Restaurant Browsing:List of available restaurants with details.Filter or search by name or cuisine.</li>
+                    <li>Menu Viewing:Display of each restaurant’s menu with images, names, and prices.</li>
+                    <li>Add to Cart Functionality:Users can add multiple items from different restaurants.Quantity update and cart preview supported.</li>
+                    <li>Order Placement:Finalize cart and place order.Save order and item details in the database.</li>
+                    <li>Dynamic UI:JavaScript-powered updates for cart and menu interaction without full page reloads.</li>
+                    <li>Admin or Restaurant Panel (optional extension):Manage restaurant listings, menu items, and view orders.</li>
+                </ul>
+                <h3>technologies used :</h3>
+                <div class="technologies">
+                    <div>
+                        <i class="fab fa-html5"></i>
+                        <div>HTML</div>
+                    </div>
+                    <div>
+                         <i class="fab fa-css3-alt" ></i>
+                         <div>CSS</div>
+                    </div>
+                    <div>
+                        <i class="fab fa-js" ></i>
+                        <div>JAVASCRIPT</div>
+                    </div>
+                    <div>
+                        <i class='bx bxl-java'></i>
+                        <div>JAVA</div>
+                    </div>
+                    <div>
+                         <i class="bi bi-filetype-sql"></i>
+                         <div>MySQL</div>
+                    </div>
+                </div>
+        </div>
+        <div class="popup-close" id="close-btn"><i class="fa fa-times" aria-hidden="true" onclick="closepopup('project6')"></i></div>
+    </div>
+
+
+    </section>
+    <section id="section5" class="section">
+   
+
+
+        <div class="contact-container">
+  <div class="contact-info">
+    <h2>Have Any Questions?</h2>
+    <p>If you have any queries please contact to the below details</p>
+    <p>📞 +91 7019796752</p>
+    <p>✉️ goudasamprit@gmail.com</p>
+    <p>📍 1243 bengaluru, karnataka, INDIA</p>
+    <div class="contact-links">
+            <i class='bx bxl-instagram' ></i>
+            <i class='bx bxl-facebook' ></i>
+            <i class='bx bxl-linkedin-square' ></i>
+            <i class='bx bxl-github'></i>
+        </div>
+  </div>
+
+  <div class="contact-form">
+    <form method="POST" onsubmit="handleFormSubmit(event)" id="myForm">
+      <label for="name">Enter Your Name *</label>
+      <input type="text" name="name" id="name" required />
+
+      <label for="email">Enter Your Email *</label>
+      <input type="email" name="email" id="email" required />
+
+      <label for="message">Enter Your Message *</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Us ➔</button>
+    </form>
+    <img width="123" src="assets/images/loading.svg" alt=""id="loadingIndicator">
+  </div>
+</div>
+<div class="alert-div" id="alert-div"></div>
+    </section>
+
+<script src="script.js"></script>
+</body>
+</html>
