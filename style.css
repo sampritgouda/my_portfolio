@@ -766,7 +766,7 @@ body{
   .teck-skills
   {
     width: 120%;
-    margin-left: 100px;
+    margin-left: 80px;
   }
   .contact-container {
     flex-direction: column;
@@ -791,7 +791,7 @@ body{
 
   .col2 p{
     width: 90%;
-    padding: 10px;
+    padding: 5px;
   }
   .section
   {
@@ -815,7 +815,7 @@ body{
   }
   .image
   {
-    margin-left: 100px;
+    margin-left: 80px;
     width: 200px;
     height: 200px;
     margin-top: -90px;
@@ -844,8 +844,23 @@ body{
   {
     display: flex;
   }
-}
 
+  .se
+  {
+    display: none;
+  }
+
+    .image-container:hover .project-info {
+    opacity: 1;
+    bottom: 10%; /* Move to the center vertically */
+    transform: translateX(-50%) translateY(-50%); /* Move to the center of the div */
+  }
+  
+  .popup-button
+  {
+    width: 200px;
+  }
+}
 
 #loadingIndicator
 {
